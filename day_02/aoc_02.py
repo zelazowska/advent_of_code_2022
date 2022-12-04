@@ -27,9 +27,8 @@ def rock_paper_scissors1():
                     total_score += 2
                 elif rounds [2] == 'Z':
                     total_score += 6
-            print(rounds, total_score)
 
-    print(f"Total score is {total_score}.")
+        print(f"Total score for part 1 is {total_score}.")
     
     
 def rock_paper_scissors2():
@@ -65,8 +64,7 @@ def rock_paper_scissors2():
                 elif rounds[0] == 'C':
                     total_score += 7 #we use rock
                 
-            print(rounds, total_score)
-        print(f"Total score for part 2 is {total_score}")
+        print(f"Total score for part 2 is {total_score}.")
     
 rock_paper_scissors1()
 rock_paper_scissors2()
